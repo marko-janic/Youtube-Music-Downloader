@@ -77,7 +77,8 @@ def main():
         # Add more playlist URLs here
     ]
 
-    # download_playlist(playlists[0])
+    for playlist in playlists:
+        download_playlist(playlist)
 
     # check_for_new_songs(playlists)
 
